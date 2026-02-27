@@ -4,7 +4,7 @@ Muhammad Mansoor
 UET Peshawar
 
 ## Live Site
-https://github.com/mansoor-IT-101/web-tech-labs.git
+https://mansoor-it-101.github.io/web-tech-labs/Lab02/
 
 ## Contents
 - Lab 02
