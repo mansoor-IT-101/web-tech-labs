@@ -4,7 +4,7 @@ Muhammad Mansoor
 UET Peshawar
 
 ## Live Site
-https://your-username.github.io/repo-name/
+https://github.com/mansoor-IT-101/web-tech-labs.git
 
 ## Contents
 - Lab 02
