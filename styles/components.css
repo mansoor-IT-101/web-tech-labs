@@ -1,0 +1,69 @@
+/* Buttons */
+
+.btn{
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin:10px;
+}
+
+.primary{
+background:blue;
+color:white;
+}
+
+.success{
+background:green;
+color:white;
+}
+
+.danger{
+background:red;
+color:white;
+}
+
+.btn:hover{
+opacity:0.8;
+transform:scale(1.1);
+transition:0.3s;
+}
+
+.btn:disabled{
+background:gray;
+}
+
+/* Form */
+
+input, select{
+display:block;
+margin:10px 0;
+padding:10px;
+width:250px;
+}
+
+input:focus{
+border:2px solid green;
+}
+
+/* Card */
+
+.card{
+width:250px;
+padding:15px;
+border:1px solid #ddd;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+text-align:center;
+margin:20px;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card:hover{
+transform:translateY(-10px);
+transition:0.4s;
+}

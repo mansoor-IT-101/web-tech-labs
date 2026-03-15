@@ -1,0 +1,74 @@
+
+.gradient{
+background:linear-gradient(red, yellow);
+padding:50px;
+color:white;
+}
+
+.bg1{
+background-image:url("../images/backgrounds/bg1.jpg");
+background-size:cover;
+height: 150px;
+width: 250px;
+}
+.bg2{
+background-image:url("../images/backgrounds/bg2.jpg");
+background-size:cover;
+height: 150px;
+width: 250px;
+}
+
+
+.gallery img{
+width:200px;
+margin:10px;
+border-radius:10px;
+box-shadow:0 4px 10px gray;
+}
+
+.gallery img:hover{
+transform:scale(1.1);
+transition:0.5s;
+filter:brightness(120%);
+}
+.icons img{
+width:50px;
+height:50px;
+}
+
+
+
+
+.rotate:hover{
+transform:rotate(45deg);
+}
+
+.scale:hover{
+transform:scale(1.5);
+}
+
+.translate:hover{
+transform:translateX(50px);
+}
+
+
+.loader{
+border:6px solid #eee;
+border-top:6px solid blue;
+border-radius:50%;
+width:40px;
+height:40px;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+
+.gradient-text{
+background:linear-gradient(red,blue);
+
+color:transparent;
+}
